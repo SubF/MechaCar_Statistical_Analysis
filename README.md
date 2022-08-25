@@ -27,9 +27,8 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 ## Summary Statistics on Suspension Coils
 
-write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
-
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+- Although the first image of the full summary shows a variance less than 100 which passes the manufacturing specification. When looking deeper, the lot summary shows lot 3 has a variance of 170 which is above 100 and does not pass the manufacturing specification.
 
 ![This is an image](https://github.com/SubF/MechaCar_Statistical_Analysis/blob/main/images/2022-08-24%2023_43_59-RStudio.png)
 
@@ -37,20 +36,10 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## T-Tests on Suspension Coils
 
-then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+![This is an image](https://github.com/SubF/MechaCar_Statistical_Analysis/blob/main/images/2022-08-24%2023_49_23-RStudio.png)
 
-Some challenges encountered when analyzing this data are as follows:
-1. I forgot to filter for theater which calculated for all category outcomes based on goals sheet. This was fixed by adding the code `Kickstarter!$Q:$Q,"=theater"`
-2. It took a while to figure out how to check between a range of two numbers but after some reserach I found out two criteria had to be added to check the range. This was fixed by adding the following code 
-`Kickstarter!$D:$D,">=1000",Kickstarter!$D:$D,"<=4999"`
-3. I have an issue matching the example line chart. My data may be different or corrupted from the data used in the example. All of the formulas look good and data seems to be pulling accurately from spot checks of the data.
+- As shown in the image above, the p-value for lot 3 is the only one with a statistical difference with a value of 0.04168
 
 ## Study Design: MechaCar vs Competition
 
-Write a short description of a statistical study that can quantify how the MechaCar performs against the competition. In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
-In your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
-
+Ran out of time...
