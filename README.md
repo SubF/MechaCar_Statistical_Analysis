@@ -10,7 +10,7 @@ Run t-tests to determine if the manufacturing lots are statistically different f
 Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
 ## Linear Regression to Predict MPG
-![This is an image](https://github.com/SubF/Kickstarter-Analysis/blob/main/Theater%20Outcomes%20by%20Launch%20Date.png)
+![This is an image](https://github.com/SubF/MechaCar_Statistical_Analysis/blob/main/images/2022-08-24%2023_25_54-RStudio.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 - Both P values below are < .05
