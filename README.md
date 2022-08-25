@@ -33,4 +33,9 @@ The design specifications for the MechaCar suspension coils dictate that the var
 
 ## Study Design: MechaCar vs Competition
 
+In this study we will test if heavier cars have worse city mileage.
+
+Null - The weight of a car has no impact on mileage
+Alternative - 
+
 Ran out of time...
