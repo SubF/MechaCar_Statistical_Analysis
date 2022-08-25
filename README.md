@@ -1,10 +1,25 @@
 # MechaCar_Statistical_Analysis
 
+A few weeks after starting his new role, Jeremy is approached by upper management about a special project. AutosRUs’ newest prototype, the MechaCar, is suffering from production troubles that are blocking the manufacturing team’s progress. AutosRUs’ upper management has called on Jeremy and the data analytics team to review the production data for insights that may help the manufacturing team.
+
+In this challenge, you’ll help Jeremy and the data analytics team do the following:
+
+Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
+Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
+Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
+
 ## Linear Regression to Predict MPG
-write a short summary using a screenshot of the output from the linear regression, and address the following questions:
+![This is an image](https://github.com/SubF/Kickstarter-Analysis/blob/main/Theater%20Outcomes%20by%20Launch%20Date.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+- Both P values below are < .05
+- vehicle_length     2.60e-12 
+- ground_clearance   5.21e-08 
+
 Is the slope of the linear model considered to be zero? Why or why not?
+- No, the Multiple R-squared = 0.7149 which shows a strong correlation
+
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
 
